@@ -21,7 +21,7 @@
             
         }
         
-        
+        $myAudioFile = "/777/music/Work The Middle.mp3";
         function displayPoints($randomValue1, $randomValue2, $randomValue3, $randomValue4)
         {
             echo "<div id='output'>";
@@ -31,6 +31,7 @@
                 {
                     case 0: $totalPoints = 1000;
                         echo "<h1>Jackpot</h1>";
+                        echo '<EMBED SRC="/777/music/Work The Middle.mp3'.$myAudioFile.'" HIDDEN="TRUE" AUTOSTART="TRUE"></EMBED>';
                         break;
                     case 1: $totalPoints = 500;
                         break;
